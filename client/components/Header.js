@@ -30,11 +30,9 @@ const Header = () => {
 
   useEffect(() => {
     if( !currentAccount ) return;
-    
+    console.log('Using: ', currentAccount)
     setUserName(`${currentAccount.slice(0, 7)}...${currentAccount.slice(35)}`)
   }, [ currentAccount ])
-
-  console.log('currentAccount. :>> ', currentAccount);
 
   return (
     <div className={ style.wrapper }>

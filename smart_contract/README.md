@@ -1,6 +1,10 @@
-Flow: 
+Start Flow: 
 1. Empty folder of this smart_contract
-2. npx hardhat ( intall all needed ethereum stuff in local, no more needed go to remix )
+2. npx hardhat ( install all needed ethereum stuff in local, no more needed go to remix )
+
+Compile and Build ( inside smart_contract folder )
+1. npx hardhat compile
+2. npx hardhat run scripts/deploy.js --network rinkeby 
 
 # Basic Sample Hardhat Project
 

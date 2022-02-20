@@ -10,6 +10,7 @@ export default function Home() {
     <div className={ style.wrapper }>
       <Header />
       <Main />
+      <div>Transaction History:</div> 
     </div>
   )
 }

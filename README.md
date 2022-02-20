@@ -1,6 +1,8 @@
 # Folder Structure
 1. client         - nextJs App
 2. smart_contract - solidity
-3. studio         - sanity
+3. studio         - sanity ( projectName: uniswap-clone-blockchain )
 
-[Project Reference](https://www.youtube.com/watch?v=xXxjRzdYIss&t=1423s)
+# Deploy into Vercel
+1. cd client
+2. vercel
